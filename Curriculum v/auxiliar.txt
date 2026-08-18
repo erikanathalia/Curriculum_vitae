@@ -1,0 +1,26 @@
+<table class="tabla">
+    <tr>
+    <td class="col1"><p>2026 - Actualmente</p> <br></td>
+    <td class="col2"><p><strong>CCNA3: Redes empresariales seguridad y automatización</strong> 
+    <br>Universidad Nacional de Asunción - Facultad Politécnica, filial Villarrica.</td>
+    </tr>
+    <tr>
+        <td>2022 - Actualmente</p> <br></td>
+    </tr>
+</table> <!--fin de educación-->
+        
+        <p>2025</p>               <br>
+        <p>2025</p>               <br>
+        <p>2014 - 2021</p>        
+
+    <!--columna 2-->
+    
+        <p><strong>Licenciatura en ciencias informáticas</strong>
+            <br>Universidad Nacional de Asunción - Facultad Politécnica, filial Villarrica.</p>
+        <p><strong>CCNA1: Introducción a las Redes</strong>
+            <br>Universidad Nacional de Asunción - Facultad de ingeniería</p>
+        <p><strong>CCNA2: fundamentos de conmutación enrutamiento y redes inalámbricas</strong>
+            <br>Universidad Nacional de Asunción - Facultad de ingeniería</p>
+        <p><strong>Bachillerato científico con énfasis en ciencias básicas</strong>
+            <br> Colegio María Auxiliadora, Villarrica</p>
+    </div>
