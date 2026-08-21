@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .color{ background: #ffc5d7;}
+        .header{ font-family: 'Cooper black';
+                  background-color: #7a1f3c;
+                  display: flex;
+                  align-content: center;
+                  color: beige;
+                  font-size: 50px;
+                  text-align: center;
+                  justify-content: space-between;}
+        header{display: block;}
+
+        .bnt { cursor: pointer;
+              background: transparent;
+              padding: 10px;
+              color: beige;
+              border-radius: 5px;
+              border: 2px solid beige;
+              margin: 10px 10px 10px 10px;
+              text-decoration: none;
+              font-size: 20px;}
+        .contenedor{background-color: beige;
+                    border-radius: 15px;
+                    border-color: #7a1f3c;
+                    overflow: auto;
+                    padding: 5px 20px 30px 20px;
+                    width: auto;
+                    }
+        .cabecera{background-color: #7a1f3c;
+                  font-family: 'Cooper';
+                  color: beige;
+                  text-align: center;}
+        .submit_btn{background-color: #7a1f3c;
+                    font-family: 'Cooper';
+                    color: beige;
+                    margin: 10px 10px 10px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    border-color: #7a1f3c;
+                    font-size: 16px;
+                    align-items: center;
+                    justify-content: center;}
+        .form{ background-color: beige;
+               border-color: #7a1f3c;
+               padding: 10px 10px 10px 10px;
+                width: 98%;}
+        .ftitle{ font-size: 16px;
+                 margin-bottom: 5px;
+                 font-weight: bold;
+                }
+    </style>
+    <title>Contacto</title>
+    </head>
+    <body class="color">
+        <header class="header">
+        <img src="logocafetería.png" alt="logo de la cafeteria" width="100" height="100" style="margin: 20px 40px 10px 20px;">
+        <p>Cafetería</p>
+        <div>
+            <br>
+            <a class="bnt" href="index.html">Inicio</a>
+            <a class="bnt" href="menu.html">Menú</a>
+            <a class="bnt" href="contacto.html">Contacto</a>
+        </div>
+    </header>
+<br>
+    <div class="contenedor">
+        <div class="cabecera">
+            <p>Contactos</p>
+        </div>
+        <form method="POST">
+            <label for="nombre" class="ftitle">Nombre completo: </label>
+            <input type="text" id="nombre" class="form">
+            <br><br>
+            <label for="correo"class="ftitle">Correo: </label>
+            <input type="email" id="nombre" class="form">
+            <br><br>
+            <label for="tel"class="ftitle">Teléfono:</label>
+            <input type="text" id="tel" class="form">
+            <br><br>
+            <label for="asunto"class="ftitle">Asunto: </label>
+            <textarea id="asunto" name="mensaje" rows="3"class="form"></textarea>
+            <br><br>
+            <button type="submit" class="submit_btn">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>
